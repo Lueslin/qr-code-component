@@ -14,9 +14,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Useful resources](#useful-resources)
   - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -26,81 +23,53 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Lueslin/qr-code-component]
+- Live Site URL: [https://lueslin.github.io/qr-code-component/]
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS3 custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [Google Fonts](https://fonts.google.com/) - Outfit font family
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+In this first challenge, I focused on translating a clean UI design into semantic HTML and well-structured CSS. My main takeaways were:
 
-To see how you can add code snippets, see below:
+- Structuring the page cleanly using semantic tags like `<main>` and `<footer>` with descriptive `alt` text for accessibility.
+- Centering the card vertically and horizontally on the screen using Flexbox combined with `min-height: 100vh` (and removing fixed heights so the card grows naturally with its content).
+- Applying concentric `border-radius` values (`19px` on the outer card and `13px` on the inner QR code image) to maintain visual harmony and consistent padding.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #d5e1ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Moving forward, I plan to complete daily Frontend Mentor challenges to build strong muscle memory in responsive layouts, deepen my understanding of CSS spacing (`margin` vs. `padding`) and CSS Grid, and gradually introduce JavaScript interactivity into upcoming projects.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [A Complete Guide to Flexbox (CSS-Tricks)](https://css-tricks.com/snippets/css/a-complete-guide-to-flexbox/) - Helped me understand how `justify-content`, `align-items`, and `flex-direction` work together to center the card both vertically and horizontally.
+- [Google Fonts](https://fonts.google.com/) - Used to import and apply the Outfit font family with the exact weights specified in the style guide.
 
 ### AI Collaboration
 
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
-
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-- What worked well? What didn't?
-
-**Note: Delete this note and the content above if you didn't use AI, or replace with your own experience.**
+I used **Gemini** as a step-by-step coding mentor throughout this project. Instead of generating ready-made code, I wrote the entire HTML and CSS myself and relied on AI guidance to review my layout decisions, troubleshoot vertical centering with `min-height: 100vh`, refine typographic hierarchy, and set up my first deployment workflow on GitHub Pages.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Lueslin Camacho](www.behance.net/logicbylueslin)
+- Frontend Mentor - [@Lueslin](https://www.frontendmentor.io/profile/Lueslin)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
